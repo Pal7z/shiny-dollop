@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N Queens Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>N Queens Problem Simulator</h1>
+    <label for="boardSize">Select board size:</label>
+    <select id="boardSize">
+        <option value="4">4x4</option>
+        <option value="5">5x5</option>
+        <option value="6">6x6</option>
+        <option value="7">7x7</option>
+        <option value="8" selected>8x8</option>
+    </select>
+    <button onclick="solveNQueens()">Solve</button>
+    <div id="board"></div>
+    <script src="script.js"></script>
+</body>
+</html>

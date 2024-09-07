@@ -1,6 +1,6 @@
-Shiny Dollop is an educational project dedicated to demonstrating the N-Queens problem using the backtracking algorithm. This repository provides an interactive exploration of the N-Queens problem, allowing visitors to learn how backtracking works to find all possible solutions.
+This is an educational project dedicated to demonstrating the N-Queens problem using the backtracking algorithm. This repository provides an interactive exploration of the N-Queens problem, allowing visitors to learn how backtracking works to find all possible solutions.
 
-The goal of Shiny Dollop is to provide an in-depth understanding of the N-Queens problem, a popular example used to teach backtracking algorithms. This project includes:
+The goal of it is to provide an in-depth understanding of the N-Queens problem, a popular example used to teach backtracking algorithms. This project includes:
 
 A detailed explanation of the N-Queens problem.
 A step-by-step walkthrough of how the backtracking algorithm solves it.

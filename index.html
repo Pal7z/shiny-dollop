@@ -7,30 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>N Queens Problem Simulator</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <label for="boardSize">Select board size:</label>
-        <select id="boardSize">
-            <option value="4">4x4</option>
-            <option value="5">5x5</option>
-            <option value="6">6x6</option>
-            <option value="7">7x7</option>
-            <option value="8" selected>8x8</option>
-        </select>
-        <button onclick="solveNQueens()">Solve</button>
-        <div id="board"></div>
-    </main>
-    <footer>
-        <p>&copy; 2024 N Queens Simulator</p>
-    </footer>
+    <h1>N Queens Problem Simulator</h1>
+    <label for="boardSize">Select board size:</label>
+    <select id="boardSize">
+        <option value="4">4x4</option>
+        <option value="5">5x5</option>
+        <option value="6">6x6</option>
+        <option value="7">7x7</option>
+        <option value="8" selected>8x8</option>
+    </select>
+    <button onclick="solveNQueens()">Solve</button>
+    <div id="board"></div>
     <script src="script.js"></script>
 </body>
 </html>

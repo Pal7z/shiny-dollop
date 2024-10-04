@@ -18,9 +18,9 @@ function createBoard() {
             cell.className = 'cell';
             cell.id = `cell-${row}-${col}`;
             if ((row + col) % 2 === 0) {
-                cell.style.backgroundColor = '#f0d9b5';
+                cell.style.backgroundColor = '#ffffff';
             } else {
-                cell.style.backgroundColor = '#b58863';
+                cell.style.backgroundColor = '#111111';
             }
             boardElement.appendChild(cell);
             board[row][col] = cell;

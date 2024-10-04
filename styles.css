@@ -60,11 +60,11 @@ h1 {
 }
 
 .cell:nth-child(even) {
-    background-color: #f0d9b5;
+    background-color: #000000;
 }
 
 .cell:nth-child(odd) {
-    background-color: #b58863;
+    background-color: #ffffff;
 }
 
 .queen {
